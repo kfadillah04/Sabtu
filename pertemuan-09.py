@@ -8,6 +8,7 @@ st.write("# Heading 1")
 # Kinerja Unit
 st.metric("Kinerja", 40, -1)
 st.metric("response Time", 30, 20)
+st.metric("Saham", 100, 20)
 
 # Pilihan
 pilih1 = st.checkbox('Ya')
