@@ -1,16 +1,25 @@
 import streamlit as st
 
+#ini bagian heading aplikasi streamlit
 st.title("Kuliah Praktikum Big Data")
 st.write("Dillah")
 st.write("# Heading 1")
-st.write("## Heading 2")
-st.write("### Heading 3")
 
+# Kinerja Unit
+st.metric("Kinerja", 40, -1)
+st.metric("response Time", 30, 20)
+
+# Pilihan
 pilih1 = st.checkbox('Ya')
 pilih2 = st.checkbox('Tidak')
 
 st.write(pilih1)
 st.write(pilih2)
+
+
+"""
+Ini komentar harusnya
+"""
 
 makanan = st.radio('Makanan kesukaan', ['Bakso', 'Nasi goreng', 'Mie ayam'] )
 
